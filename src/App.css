@@ -1,0 +1,216 @@
+body{
+  /* background-image: url("../public/hero.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 100%; */
+  background-color: #FEBD2F;
+  z-index: 5;
+}
+
+.body{
+  /* background:linear-gradient(to right,#FEBD2F,#FFF1CE); */
+  background-image: url("../public/final.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  background-color: #FEBD2F;
+  height: fit-content;
+  width: fit-content;
+  height: 100%;
+  width: 100%;
+  font-family: 'Philosopher', sans-serif;
+  z-index: 0;
+}
+
+/* another image if can be inverted we will use */
+/* .another{
+  background-image: url("../public/fact.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  
+} */
+
+.page{
+  /* background-image: url("../public/hero.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 100%; */
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height:inherit;
+  width: inherit;
+}
+
+.header{
+ 
+  text-align: center;
+  font-size:larger;
+  margin-left: 7%;
+  margin-right: 7%;
+  
+}
+
+.logo-holder{
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 8%;
+}
+
+/* .cust{
+  height: 80vh;
+} */
+
+
+/* 
+.container-rot{
+  background-color: #FFF1CE;
+  color: #FEBD2F;
+  /* padding-bottom: 110px; */
+  /* border-radius: 10px;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 10%;
+} */ 
+
+.expanded-card {
+  display: none;
+  transition: ease-in-out;
+}
+
+.expanded-card.visible {
+  display: block;
+  transition: ease-in-out;
+}
+
+/* .container-rot{
+  
+  
+} */
+
+
+section p{
+  padding: 0;
+  margin: 0.2%;
+}
+
+.bold{
+  font-size: 300%;
+  font-weight:bold;
+}
+
+.red{
+  cursor: pointer;
+}
+
+/* .red:hover .robot{
+  opacity: 0.9;
+  z-index: 2;
+  bottom: 0px;
+} */
+
+.card2{
+  transition: 1s;
+}
+
+.big{
+  width: 80%;
+  margin-left: 10%;
+  z-index: 5;
+  
+}
+
+.card2:hover{
+  transform:scale(1.1) ;
+  /* .robot{
+    opacity: 0.7;
+    z-index: 2;
+    bottom: 0px;
+    width: 670px;
+  } */
+}
+
+.text{
+  transition: 1s;
+  font-size:150%;
+}
+
+.robot p{
+  color: #e54c44;
+  padding-top: 12%;
+}
+
+/* .robot{
+  opacity: 0;
+  padding-top: 0;
+  height: inherit;
+  width: 300px;
+  position: absolute;
+  bottom: -500px; 
+  /* background-color: #FEBD2F; */
+  /* background-color: #FFF1CE;
+  border-radius: 16px;
+  transition: 0.7s;
+} */ 
+
+footer{
+  margin-top: -70px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+button{
+  height: 50px;
+  width: 160px;
+  font-size: 130%;
+  border-radius: 8px;
+  transition: 0.4s;
+  background-color:#e54c44;
+  border:0px;
+  color: white;
+}
+
+button:hover{
+  transition: scale(1.2);
+  
+}
+/* 
+.color{
+  background-image: url("../public/hero.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 100%;
+} */
+
+
+@media (max-width: 1500px) {
+  /* Your responsive styles go here */
+  .body{
+    background-size: cover;
+  }
+  
+}
+@media (max-width: 1300px) {
+  /* Your responsive styles go here */
+  .body{
+    background-size: cover;
+  }
+  
+  
+}
+@media (max-width: 1000px) {
+  /* Your responsive styles go here */
+  .body{
+    background-image: none;
+  }
+  
+  
+}
+@media (max-width: 768px) {
+  /* Your responsive styles go here */
+}
